@@ -1,13 +1,13 @@
-# 📊 Sales Performance Analysis for Global Electronics Retailer
+# Sales Performance Analysis for Global Electronics Retailer
 
-## 🧭 Executive Summary
+## Executive Summary
 This project performs **Exploratory Data Analysis (EDA)** on the *Global Electronics Retailer* dataset to identify key trends in sales performance, customer behavior, and profitability across countries and product categories.  
 
 Using **Python (Pandas, NumPy, Matplotlib)** for data cleaning, transformation, and analysis — and **Tableau** for visualization — the project prepares a clean analytical dataset and extracts business insights to support strategic decisions.
 
 ---
 
-## 🧩 Business Problem
+## Business Problem
 Retail sales data often contains missing or inconsistent values, and decision-makers struggle to identify which products, stores, or months drive the most revenue.  
 
 The main business questions are:
@@ -17,7 +17,7 @@ The main business questions are:
 
 ---
 
-## 🧠 Methodology (EDA Steps)
+## Methodology (EDA Steps)
 This notebook follows the 7 core steps of Exploratory Data Analysis:
 
 | Step | Description |
@@ -32,7 +32,7 @@ This notebook follows the 7 core steps of Exploratory Data Analysis:
 
 ---
 
-## ⚙️ Data Pipeline Overview
+## Data Pipeline Overview
 **1. Data Sources:**
 - `Customers.csv` — customer demographics and locations  
 - `Products.csv` — product metadata (name, brand, cost, price, subcategory)  
@@ -55,7 +55,7 @@ This notebook follows the 7 core steps of Exploratory Data Analysis:
 
 ---
 
-## 📈 Key Analysis Results
+## Key Analysis Results
 ### 1. Sales Over Time
 ![Sales over time](images/sales_over_time.png)
 
@@ -74,7 +74,7 @@ This notebook follows the 7 core steps of Exploratory Data Analysis:
 
 ---
 
-## 🧮 Tools & Technologies
+## Tools & Technologies
 | Category | Tools |
 |-----------|-------|
 | Data Preparation | Python, Pandas, NumPy, Pathlib |
@@ -84,7 +84,7 @@ This notebook follows the 7 core steps of Exploratory Data Analysis:
 
 ---
 
-## 🏁 Results & Business Insights
+## Results & Business Insights
 - Clean dataset prepared for Tableau dashboards  
 - Identified revenue concentration among a few key product lines  
 - Found delivery delay pattern (avg 3 days) influencing order frequency  
@@ -92,19 +92,14 @@ This notebook follows the 7 core steps of Exploratory Data Analysis:
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 1. Build a Tableau dashboard showing revenue and margin by category, country, and month  
 2. Create an interactive filter for “Delivery Time” and “Currency”  
 3. Automate monthly updates of the CSV export using Python  
 
 ---
 
-## 🧾 License
-This project is shared for educational and portfolio purposes under the **MIT License**.
-
----
-
-> ✨ *Author:* [Kappelia](https://github.com/Kappelia)  
+> *Author:* [Kappelia](https://github.com/Kappelia)  
 > *Project:* Sales Performance Analysis for Global Electronics Retailer  
 > *Environment:* Google Colab + Tableau
 > *Requirements:* Pandas, Numpy, Matplotlib, Pathlib
