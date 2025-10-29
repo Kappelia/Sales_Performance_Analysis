@@ -5,7 +5,7 @@ This project performs **Exploratory Data Analysis (EDA)** on the *Global Electro
 
 Using **Python (Pandas, NumPy, Matplotlib)** for data cleaning, transformation, and analysis — and **Tableau** for visualization — the project prepares a clean analytical dataset and extracts business insights to support strategic decisions.
 
----
+
 
 ## Business Problem
 Retail sales data often contains missing or inconsistent values, and decision-makers struggle to identify which products, stores, or months drive the most revenue.  
@@ -15,7 +15,7 @@ The main business questions are:
 2. How does sales performance change over time?
 3. What delivery time patterns can be observed, and how do they impact revenue?
 
----
+
 
 ## Methodology (EDA Steps)
 This notebook follows the 7 core steps of Exploratory Data Analysis:
